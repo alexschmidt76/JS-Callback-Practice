@@ -1,3 +1,9 @@
+// zIndex order:
+// 0 -> background
+// 1 -> character behind images
+// 2 -> images
+// 3 -> character in front of images
+
 // add background
 const ROWS = Math.ceil(window.innerHeight / 100); // each tile is 100x100, round up
 const COLS = Math.ceil(window.innerWidth / 100);  // for incomplete rows and cols
